@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/exxam.io-UI/",
+  base: "/exxam.io/",
   plugins: [react(), tailwindcss()],
 });
