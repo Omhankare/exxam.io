@@ -39,7 +39,7 @@ export default function Hero() {
       <section className="w-132 h-22 md:w-auto items-center  justify-center text-center pt-3">
         <h1 className="">Supported and Powered by several top companies</h1>
 
-        <div className="flex justify-center text-center md:text-2xl md:gap-20 pt-3 md:pr-15 text-md">
+        <div className="flex  justify-center text-center md:text-2xl md:gap-20 pt-3 md:pr-15 text-md">
           <div className=" flex items-center  pr-3 ">
             <i className="fa-brands fa-xbox pr-1 "></i> <p>XBOX</p>
           </div>
