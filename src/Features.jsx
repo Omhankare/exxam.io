@@ -1,7 +1,7 @@
 export default function Features() {
   return (
     <>
-      <main className="w-132    md:mt-10 md:mb-20 h-125 md:h-200  md:w-410 mx-auto rounded-b-3xl gap-1 md:gap-2    text-center flex flex-col items-center">
+      <main className="w-132   md:mt-10 md:mb-20  md:w-410 mx-auto rounded-b-3xl gap-1 md:gap-2    text-center flex flex-col items-center">
         <p className="text-blue-500 font-medium text-xs md:text-md mb-1 md:mt-4">
           FEATURES
         </p>
@@ -15,7 +15,7 @@ export default function Features() {
           Experiences
         </p>
 
-        <div className=" flex flex-col w-125 md:w-390 rounded-2xl p-5  ring-blue-300 ring-3">
+        <div className=" flex flex-col w-125 md:w-400 rounded-2xl p-5  ring-blue-300 ring-3">
           <div className=" md:h-30 text-start w-full mb-5">
             <p className="text-2xl font-semibold">
               Automatically Exam Scheduling
@@ -26,8 +26,8 @@ export default function Features() {
             </p>
           </div>
 
-          <div className=" md:h-98 flex flex-col md:flex-row gap-5 w-full">
-            <div className="h-full w-115 md:w-125 p-5  ring-gray-300 ring-3 rounded-2xl">
+          <div className="  grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-10  w-full">
+            <div className="h-full  w-115 md:w-125 p-5  ring-gray-300 ring-3 rounded-2xl">
               <div className="flex justify-between text-sm mb-3">
                 <p className="text-blue-700 bg-blue-100 px-2 py-1 rounded-2xl">
                   Running
@@ -197,9 +197,96 @@ export default function Features() {
                 </div>
               </div>
             </div>
+
+            <div className="h-full relative  w-115 md:w-125 p-5 bg-gray-100  ring-gray-300 ring-3 rounded-2xl">
+              <div className=" mb-3 text-start">
+                <p className="text-2xl font-semibold mb-3">
+                  Generate Question & Answer
+                </p>
+                <p className="text-lg font-light">
+                  AI-Powered Exam Creation: Effortlessly Generate Questions and
+                  Answers with Our Advanced Artificial Intelligence Platform
+                </p>
+              </div>
+              <div className="ring-1 mt-25 ml-30 z-30 items-center  bg-white absolute rounded-md w-50 ">
+                <span className="text-blue-500">✨</span>
+                <span className="font-semibold text-sm">
+                  Get Started - Generate
+                </span>
+              </div>
+
+              <div className="ring-1  h-35 rounded-2xl px-5 py-4  flex bg-blue-200 mt-30 w-full justify-between ">
+                <div className="flex bg-white  p-5 rounded-md w-full ">
+                  <div className="h-15 w-15 bg-gray-200  mr-5 "></div>
+                  <div>
+                    <div className="h-5 w-70 mb-2 bg-gray-200 "></div>
+                    <div className="h-5 w-50 mb-2 bg-gray-200 "></div>
+                    <div className="h-5 w-30 bg-gray-200 "></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-full relative  w-115 md:w-125 p-5 bg-gray-100  ring-gray-300 ring-3 rounded-2xl">
+              <div className=" mb-3 text-start">
+                <p className="text-2xl font-semibold mb-3">
+                  Analysist Exam Result
+                </p>
+                <p className="text-lg font-light">
+                  Comprehensive Exam Analysis: Leverage the Power of AI for
+                  Detailed Examination Result Insights and Data Interpretation
+                </p>
+              </div>
+              <div className="ring-1 mt-30 ml-40  md:ml-50 z-30 items-center  bg-white absolute rounded-md w-20 ">
+                <span className="text-blue-500">✨</span>
+                <span className="font-semibold text-sm">Result</span>
+              </div>
+
+              <div className="ring-1  h-35 rounded-2xl px-5 py-4  flex bg-blue-200 mt-36 w-full justify-between ">
+                <div className="flex bg-white  p-5 rounded-md w-full ">
+                  <div className="h-15 w-15 bg-gray-200  mr-5 "></div>
+                  <div>
+                    <div className="h-5 w-70 mb-2 bg-gray-200 "></div>
+                    <div className="h-5 w-50 mb-2 bg-gray-200 "></div>
+                    <div className="h-5 w-30 bg-gray-200 "></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-full relative  w-115 md:w-125 p-5 bg-gray-100  ring-gray-300 ring-3 rounded-2xl">
+              <div className=" mb-3 text-start">
+                <p className="text-2xl font-semibold mb-3">
+                  Scanning Document Summary
+                </p>
+                <p className="text-lg font-light">
+                  Effortless Document Scanning and Summary Generation: Hamess
+                  Advanced Technology for Swift and Accurate Document Analysis
+                </p>
+              </div>
+              <div className="ring-1 mt-25 ml-40 md:ml-45 z-30 items-center  bg-white absolute rounded-md w-25 ">
+                <span className="text-blue-500">✨</span>
+                <span className="font-semibold text-sm">Scanning</span>
+              </div>
+
+              <div className="ring-1  h-35 rounded-2xl px-5 py-4  flex bg-blue-200 mt-30 w-full justify-between ">
+                <div className="flex bg-white  p-5 rounded-md w-full ">
+                  <div className="h-15 w-15 bg-gray-200  mr-5 "></div>
+                  <div>
+                    <div className="h-5 w-70 mb-2 bg-gray-200 "></div>
+                    <div className="h-5 w-50 mb-2 bg-gray-200 "></div>
+                    <div className="h-5 w-30 bg-gray-200 "></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
+
+      <footer className="text-center text-xs text-gray-500 mt-10 mb-4">
+        Created by Om Hankare
+      </footer>
     </>
   );
 }
