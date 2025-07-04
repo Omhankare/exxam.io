@@ -3,7 +3,7 @@ import image from "./assets/Screenshot.png";
 export default function Hero() {
   return (
     <>
-      <main className="w-125 ml-3  h-125 md:h-165 md:mt-2 md:w-410 mx-auto rounded-b-3xl gap-1 bg-gradient-to-b md:gap-2 from-white to-[#4682b4]   md:from-white md:via-[#c7e1f6] md:to-[#4682b4]    text-center flex flex-col items-center">
+      <main className="w-125 ml-5  h-125 md:h-165 md:mt-2 md:w-410 mx-auto rounded-b-3xl gap-1 bg-gradient-to-b md:gap-2 from-white to-[#4682b4]   md:from-white md:via-[#c7e1f6] md:to-[#4682b4]    text-center flex flex-col items-center">
         <p className="text-blue-500 font-medium text-xs md:text-md mb-1 md:mt-4">
           PRODUCT & MANAGEMENT EXAM TOOL
         </p>

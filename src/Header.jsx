@@ -9,9 +9,7 @@ export default function Header() {
       </ul>
 
       <ul className="flex items-center text-sm   md:font-medium justify-end gap-3 md:gap-10 md:text-xl ml-auto">
-        <li>
-          Features <i className="text-base fa-solid ml-2 fa-caret-down"></i>
-        </li>
+        <li>Features</li>
         <li>Pricing</li>
         <li>Blog</li>
       </ul>
