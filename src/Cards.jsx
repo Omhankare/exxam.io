@@ -120,10 +120,11 @@ export default function Cards() {
 
                   <div className="bg-gray-100 justify-between flex ring-1 p-3 md:mt-4 ring-gray-300 rounded-md">
                     <p className="text-gray-700 mt-2 text-lg">
-                      <i class="fa-solid fa-magnifying-glass"></i> Ask me!
+                      <i className="fa-solid mr-2 fa-magnifying-glass"></i> Ask
+                      me!
                     </p>
 
-                    <button className="bg-[#078bf7] text-white px-4 py-2 rounded-md">
+                    <button className="bg-blue-700 text-white px-4 py-2 rounded-md">
                       ✨ Genrate
                     </button>
                   </div>

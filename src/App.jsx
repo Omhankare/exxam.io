@@ -3,6 +3,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Cards from "./Cards";
 import Features from "./Features";
+import Pricing from "./Pricing";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Features />
       <Cards />
+      <Pricing />
     </>
   );
 }

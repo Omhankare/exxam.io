@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="pl-2 pr-2  h-15 md:h-20 w-132 md:w-full text-center flex items-center md:px-20">
+    <nav className="px-2  h-15 md:h-20 w-132 md:w-full text-center flex items-center md:px-20">
       <ul className="flex items-center md:gap-10 text-sm md:text-xl font-semibold">
         <li className="flex items-center">
           <i className="fa-solid fa-book-open mr-1 text-white p-1 bg-blue-600 rounded-md md:border-2 text-sm border-blue-600"></i>

@@ -3,7 +3,7 @@ import image from "./assets/Screenshot.png";
 export default function Hero() {
   return (
     <>
-      <main className="w-125 ml-5  h-125 md:h-165 md:mt-2 md:w-410 mx-auto rounded-b-3xl gap-1 bg-gradient-to-b md:gap-2 from-white to-[#4682b4]   md:from-white md:via-[#c7e1f6] md:to-[#4682b4]    text-center flex flex-col items-center">
+      <main className="w-125 ml-3 md:ml-5  h-125 md:h-165 md:mt-2 md:w-410 mx-auto rounded-b-3xl gap-1 bg-gradient-to-b md:gap-2 from-white to-[#4682b4]   md:from-white md:via-[#c7e1f6] md:to-[#4682b4]    text-center flex flex-col items-center">
         <p className="text-blue-500 font-medium text-xs md:text-md mb-1 md:mt-4">
           PRODUCT & MANAGEMENT EXAM TOOL
         </p>
@@ -39,7 +39,7 @@ export default function Hero() {
       <section className="w-132 h-22 md:w-auto items-center  justify-center text-center pt-3">
         <h1 className="">Supported and Powered by several top companies</h1>
 
-        <div className="flex  justify-center text-center md:text-2xl md:gap-20 pt-3 md:pr-15 text-md">
+        <div className="flex   justify-center text-center md:text-2xl md:gap-20 pt-3 md:pr-15 text-md">
           <div className=" flex items-center  pr-3 ">
             <i className="fa-brands fa-xbox pr-1 "></i> <p>XBOX</p>
           </div>
@@ -53,7 +53,7 @@ export default function Hero() {
           <div className=" flex items-center pr-3">
             <i className="fa-brands fa-google pr-1 "></i> <p>GOOGLE</p>
           </div>
-          <div className=" flex items-center pr-3">
+          <div className=" flex items-center ">
             <i className="fa-brands fa-dropbox pr-1 "></i> <p>DROPBOX</p>
           </div>
         </div>
