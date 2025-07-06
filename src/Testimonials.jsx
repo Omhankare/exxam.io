@@ -22,13 +22,13 @@ export default function Testimonials() {
                 <p>
                   <i className="  ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
-                <div className="mr-35">
-                  <p>Marc Marquez</p>
+                <div className="mr-30">
+                  <p className="font-semibold">Marc Marquez</p>
                   <p className="text-start">Oct 2024</p>
                 </div>
                 <div>
                   <button className="ring-3 ring-gray-300 rounded-2xl px-3 py-1">
-                    student
+                    Student
                   </button>
                 </div>
               </div>
@@ -46,13 +46,13 @@ export default function Testimonials() {
                 <p>
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
-                <div className="mr-35">
-                  <p>Marc Marquez</p>
-                  <p className="text-start">Oct 2024</p>
+                <div className="mr-30">
+                  <p className="font-semibold">Sebastian Vettel</p>
+                  <p className="text-start">May 2024</p>
                 </div>
                 <div>
                   <button className="ring-3 ring-gray-300 rounded-2xl px-3 py-1">
-                    student
+                    Student
                   </button>
                 </div>
               </div>
@@ -70,13 +70,13 @@ export default function Testimonials() {
                 <p>
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
-                <div className="mr-35">
-                  <p>Marc Marquez</p>
+                <div className="mr-30">
+                  <p className="font-semibold">Marc Marquez</p>
                   <p className="text-start">Oct 2024</p>
                 </div>
                 <div>
                   <button className="ring-3 ring-gray-300 rounded-2xl px-3 py-1">
-                    student
+                    Student
                   </button>
                 </div>
               </div>
@@ -94,9 +94,9 @@ export default function Testimonials() {
                 <p>
                   <i className="  ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
-                <div className="mr-35 ">
-                  <p className="">Marc Marquez</p>
-                  <p className="text-start">Oct 2024</p>
+                <div className="mr-15 ">
+                  <p className="font-semibold">Alexandra Saint Mleux</p>
+                  <p className="text-start">Dec 2024</p>
                 </div>
                 <div>
                   <button className="ring-3 ring-gray-300 rounded-2xl px-3 py-1">
@@ -119,8 +119,8 @@ export default function Testimonials() {
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
                 <div className="mr-35">
-                  <p>Marc Marquez</p>
-                  <p className="text-start">Oct 2024</p>
+                  <p className="font-semibold">Doriane Pine</p>
+                  <p className="text-start">June 2024</p>
                 </div>
                 <div>
                   <button className="ring-3 ring-gray-300 rounded-2xl px-3 py-1">
@@ -145,7 +145,7 @@ export default function Testimonials() {
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
                 <div className="mr-35">
-                  <p>Marc Marquez</p>
+                  <p className="font-semibold">Sergio Perez</p>
                   <p className="text-start">Oct 2024</p>
                 </div>
                 <div>
@@ -169,8 +169,8 @@ export default function Testimonials() {
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
                 <div className="mr-35">
-                  <p>Marc Marquez</p>
-                  <p className="text-start">Oct 2024</p>
+                  <p className="font-semibold">Carlos Sainz</p>
+                  <p className="text-start">Jan 2024</p>
                 </div>
                 <div>
                   <button className="ring-3 ring-gray-300 rounded-2xl px-3 py-1">
@@ -192,8 +192,8 @@ export default function Testimonials() {
                 <p>
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
-                <div className="mr-35">
-                  <p>Marc Marquez</p>
+                <div className="mr-30">
+                  <p className="font-semibold">Charles Leclerc</p>
                   <p className="text-start">Oct 2024</p>
                 </div>
                 <div>
@@ -219,8 +219,8 @@ export default function Testimonials() {
                 <p>
                   <i className=" ring-1 p-4 rounded-full fa-regular fa-user"></i>
                 </p>
-                <div className="mr-35">
-                  <p>Marc Marquez</p>
+                <div className="mr-30">
+                  <p className="font-semibold">Bruuce Buffer</p>
                   <p className="text-start">Oct 2024</p>
                 </div>
                 <div>

@@ -111,7 +111,7 @@ export default function Pricing() {
                 <span className="mt-3">/per month</span>
               </div>
               <p className="mb-4">Save 35% by paying annually</p>
-              <button className="ring-2 ring-gray-400 rounded-md font-medium w-full mt-8 py-2">
+              <button className="ring-3 ring-gray-300 rounded-md font-medium w-full mt-8 py-2">
                 Get Enterprise
               </button>
             </div>
