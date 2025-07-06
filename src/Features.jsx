@@ -2,15 +2,15 @@ export default function Features() {
   return (
     <>
       <main className="w-132   mt-40 mb-20  md:w-410 mx-auto rounded-b-3xl gap-1 md:gap-2    text-center flex flex-col items-center">
-        <p className="text-blue-500 font-medium text-xs md:text-md mb-1 md:mt-4">
+        <p className="text-blue-500 font-medium text-xs md:text-xl mb-1 md:mt-4">
           FEATURES
         </p>
 
-        <h1 className="text-2xl md:text-5xl font-semibold  mb-4">
+        <h1 className="text-2xl md:text-5xl font-bold  mb-4">
           Explore our features for easily <br /> exam experience
         </h1>
 
-        <p className="text-xs md:text-base  text-gray-800 mb-10">
+        <p className="text-xs md:text-xl  text-gray-800 mb-10">
           Discover Seamless Exam Solutions: Unlocking Effortless Assessment
           Experiences
         </p>

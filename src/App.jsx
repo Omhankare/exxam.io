@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Cards from "./Cards";
 import Features from "./Features";
 import Pricing from "./Pricing";
+import Testimonials from "./Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <Cards />
       <Pricing />
+      <Testimonials />
     </>
   );
 }

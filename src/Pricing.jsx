@@ -1,23 +1,21 @@
 export default function Pricing() {
   return (
     <>
-      <main className="md:p-20 ">
-        <div className=" ml-30 text-center">
-          <p className="text-blue-500 font-medium text-xs md:text-md mb-1 md:mt-4">
+      <main className="md:p-20  md:w-410 w-132  ">
+        <div className=" text-center">
+          <p className="text-blue-500 font-medium text-xs md:text-xl mb-1 md:mt-4">
             PRICING
           </p>
 
-          <p className="text-2xl md:text-5xl font-semibold  mb-4">
-            Our Pricing
-          </p>
+          <p className="text-2xl md:text-5xl font-bold  mb-4">Our Pricing</p>
 
-          <p className="text-xs md:text-base  text-gray-800 mb-10">
+          <p className="text-xs md:text-xl  text-gray-800 mb-10">
             Exxam.io combines enterprise-grade capabilities with simple way
           </p>
         </div>
 
-        <div className="h-200 mx-4 grid grid-cols-1 md:grid-cols-3  md:px-10 gap-10">
-          <div className="h-165 w-125 md:w-110 p-3 ring-1 ring-gray-300 rounded-2xl ">
+        <div className=" mx-4  grid grid-cols-1 md:grid-cols-3  md:px-10 gap-10">
+          <div className=" w-125 md:w-110 p-3 ring-1 ring-gray-300 rounded-2xl ">
             <div className="h-80 w-full ring-1 ring-gray-400 rounded-2xl p-5 ">
               <p className="font-semibold text-3xl mb-4">Personal</p>
               <p className="mb-3">
@@ -53,7 +51,7 @@ export default function Pricing() {
             </div>
           </div>
 
-          <div className="h-165 w-125 md:w-110 p-3 ring-1 ring-gray-300 rounded-2xl">
+          <div className=" w-125 md:w-110 p-3 ring-1 ring-gray-300 rounded-2xl">
             <div className="h-80 w-full ring-1 ring-blue-400 rounded-2xl p-5 bg-gradient-to-b  from-white to-[#91ceff]">
               <p className="font-semibold text-3xl mb-4">Team</p>
               <p className="mb-3">
@@ -101,7 +99,7 @@ export default function Pricing() {
             </div>
           </div>
 
-          <div className="h-165 w-125 md:w-110 p-3 ring-1 ring-gray-300 rounded-2xl">
+          <div className=" w-125 md:w-110 p-3 ring-1 ring-gray-300 rounded-2xl">
             <div className="h-80 w-full ring-1 ring-gray-400 rounded-2xl p-5 ">
               <p className="font-semibold text-3xl mb-4">Enterprise</p>
               <p className="mb-3">
