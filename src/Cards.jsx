@@ -57,7 +57,7 @@ export default function Cards() {
                 students, ensuring quick access to detailed performance
                 summaries
               </p>
-              <button className="text-white bg-black rounded-md px-3 py-2">
+              <button className="text-white cursor-pointer bg-black rounded-md px-3 py-2">
                 Explore More <i className="fa-solid pl-2 fa-arrow-right"></i>
               </button>
             </div>
@@ -77,7 +77,7 @@ export default function Cards() {
                 students, ensuring quick access to detailed performance
                 summaries
               </p>
-              <button className="text-white bg-black rounded-md px-3 py-2">
+              <button className="text-white cursor-pointer bg-black rounded-md px-3 py-2">
                 Explore More <i className=" pl-2 fa-solid fa-arrow-right"></i>
               </button>
             </div>
@@ -124,7 +124,7 @@ export default function Cards() {
                       me!
                     </p>
 
-                    <button className="bg-blue-700 text-white px-4 py-2 rounded-md">
+                    <button className="bg-blue-700 cursor-pointer text-white px-4 py-2 rounded-md">
                       ✨ Genrate
                     </button>
                   </div>

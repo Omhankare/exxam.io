@@ -1,12 +1,39 @@
-# React + Vite
+# exxam.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**exxam.io** is a fully responsive UI design for an online exam web app.  
+It is built completely by **Om Krishna Hankare** using **React**, **JSX**, **HTML**, and **Tailwind CSS**.  
+This project focuses only on the **frontend user interface** — no backend functionality is implemented yet.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clean, custom-built UI design
+- Fully responsive layout for all screen sizes
+- Built with modern web technologies
+- Created from scratch — no UI libraries, only custom HTML + Tailwind CSS + React
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – for building UI components with JSX
+- **JSX** – for writing declarative UI code inside JavaScript
+- **Tailwind CSS** – for styling and responsiveness
+- **HTML** – markup
+
+## ⚠️ License & Permissions
+
+This project is **NOT open source**.
+
+**All rights reserved** — You **may not** copy, use, edit, or redistribute any part of this code or design **without explicit written permission** from the creator (**Om Krishna Hankare**).
+
+## 📂 Status
+
+This project is currently UI-only.  
+No backend logic, API integration, or database is implemented yet.
+
+## 🚀 Author
+
+**Om Krishna Hankare**
+
+---
+
+> 📌 _Unauthorized use or copying is strictly prohibited._  
+> Made with ❤️ by Om Krishna Hankare

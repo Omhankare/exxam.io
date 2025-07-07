@@ -3,7 +3,7 @@ export default function Pricing() {
     <>
       <main className="md:p-20  md:w-410 w-132  ">
         <div className=" text-center">
-          <p className="text-blue-500 font-medium text-xs md:text-xl mb-1 md:mt-4">
+          <p className="text-blue-500 font-medium text-xl md:text-md mb-1 md:mt-4">
             PRICING
           </p>
 
@@ -27,7 +27,7 @@ export default function Pricing() {
                 <span className="mt-3">/per month</span>
               </div>
               <p className="mb-4">Save 35% by paying annually</p>
-              <button className="ring-3 ring-gray-300 rounded-md font-medium w-full mt-8 py-2">
+              <button className="ring-3 text-gray-600 hover:bg-gray-100 cursor-pointer ring-gray-300 rounded-md font-medium w-full mt-8 py-2">
                 Get Personal
               </button>
             </div>
@@ -62,7 +62,7 @@ export default function Pricing() {
                 <span className="mt-3">/per month</span>
               </div>
               <p className="mb-4">Save 35% by paying annually</p>
-              <button className="ring-3 ring-blue-300 bg-blue-700 text-white rounded-md font-medium w-full mt-8 py-2">
+              <button className="ring-3 ring-blue-300 cursor-pointer bg-blue-700 text-white rounded-md font-medium w-full mt-8 py-2">
                 Get Team
               </button>
             </div>
@@ -111,7 +111,7 @@ export default function Pricing() {
                 <span className="mt-3">/per month</span>
               </div>
               <p className="mb-4">Save 35% by paying annually</p>
-              <button className="ring-3 ring-gray-300 rounded-md font-medium w-full mt-8 py-2">
+              <button className="ring-3 ring-gray-300 cursor-pointer text-gray-600 hover:bg-gray-100 rounded-md font-medium w-full mt-8 py-2">
                 Get Enterprise
               </button>
             </div>

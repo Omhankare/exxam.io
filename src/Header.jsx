@@ -14,7 +14,7 @@ export default function Header() {
         <li>Blog</li>
       </ul>
 
-      <button className="md:text-base text-sm ml-3 md:ml-8 font-medium shadow-md cursor-pointer rounded-md p-2 md:p-3 ring-2 ring-gray-300 ">
+      <button className="md:text-base text-gray-600 hover:bg-gray-100 text-sm ml-3 md:ml-8 font-medium shadow-md cursor-pointer rounded-md p-2 md:p-3 ring-2 ring-gray-300 ">
         Login
       </button>
 
